@@ -200,5 +200,5 @@ notifications:
   email: false
 
 branches:
-  exclude:
-    - /^sils\//
+  only:
+    - test_bears_on_change
